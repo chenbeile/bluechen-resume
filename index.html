@@ -40,7 +40,7 @@
                 <!--//item-->
                 <div class="item">
                     <h4 class="degree">本科</h4>
-                    <h5 class="meta">南昌大学</h5>
+                    <h5 class="degree">南昌大学</h5>
                     <div class="time">2012 - 2016</div>
                 </div><!--//item-->
             </div><!--//education-container-->
@@ -80,8 +80,8 @@
                     <span><h5>框架 &amp; 工程化</h5></span>
                     <ul>
                         <li>熟悉http协议</li>
-                        <li>了解webpack相关配置</li>
-                        <li>能够使用vue-cli实现自动化流程，对Vue、Vuex有一定理解 - <span><a href="https://chenbeile.github.io/travel/dist/#/">相关demo</a></span></li>
+                        <li>了解webpack相关配置及优化 - <span><a href="https://github.com/chenbeile/webpack-learn">预览地址</a></span></li>
+                        <li>能够使用vue-cli实现自动化流程，对Vue、Vuex有一定理解</li>
                         <li>能够使用element-ui框架</li>
                         <li>对前端安全、性能优化方面的知识有一定理解</li>
                         <li>熟练使用VSCode、Sublime Text、Git等开发工具</li>
@@ -96,38 +96,34 @@
                         <li>坚持写技术博客，相信问题不止一种解决方法，喜欢独立思考，善于请教问题</li>
                     </ul>
                 </div>
-            </section><!--//skills-section-->            
+            </section>          
             
             <section class="section projects-section">
-                <!-- <h2 class="section-title"><span class="icon-holder"><i class="fas fa-archive"></i></span>Projects</h2> -->
-                <!-- <div class="item">
-                    <span class="project-title"><h5>基于Vue &amp; Vuex移动端旅游项目</h5></span><a href="https://chenbeile.github.io/travel/dist/#/">预览地址</a> - <a href="https://github.com/chenbeile/travel">源码展示</a>
-                    <span class="project-tagline"><br>
-                        <strong>功能介绍</strong>：首页城市与城市选择页面数据共享，多区域列表的循环展示，多区域轮播功能，城市选择页面有城市的展示，城市的搜索功能以及城市右侧字母与左侧区块动画联动的效果，景点详情页面有公共画廊组件，渐隐渐现的header组件递归展示的列表组件<br>
-                        <strong>技术细节</strong>：项目的矢量图标使用的是阿里提供的iconfont，可以避免调整高度和位置的麻烦，使用webpack配置简化代码，使用stylus预处理css，轮播图使用的是vue-awesome-swiper插件实现首页图片区域、下方图标区域的轮播以及页面详情公共画廊图片的轮播，数据请求使用的是axios，可以避免多次请求数据。每次跳转页面，首页点击header中的城市跳转到城市列表时，每次都会重新请求数据，为此使用了keep-alive取缓存的特性来优化性能，使用vue-devtools工具来进行vue项目的调试<br>
-                        <strong>使用技术</strong>：vue@2.4 + webpack + node + vue-router（多页面间路由） + vue-cli + stylus（编写前端样式） + iconfont + fastclick + vue-awesome-swiper（页面上轮播效果） + axios（ajax数据的获取） + better-scroll + vuex（各组件间数据共享）<br>
-                    </span>
-                </div>
-                <div class="item">
-                    <span class="project-title"><h5>基于jQuery的瀑布流新闻页面</h5></span><a href="https://codepen.io/BlueChen/pen/ZMzqMM">预览地址</a>
-                    <span class="project-tagline"><br>
-                        <strong>功能介绍</strong>：获取新闻图片数据，通过瀑布流的方式展现到页面上<br>
-                        <strong>技术细节</strong>：首先获取数据，把数据变为DOM，以瀑布流的形式放到页面上，当页面滚动到底部的时候同时向下浏览页面图片新闻，使用懒加载优化性能,使用了新浪的api。原理是在页面底部留一个不可见的div，当滚动页面到底部的时候，这个div触发了加载事件，使用jsonp向新浪获取数据，否则就不用发送请求<br>
-                        <strong>使用技术</strong>：jQuery+Jsonp+瀑布流+懒加载<br>
-                    </span>
-                </div>
-                <div class="item">
-                    <span class="project-title"><h5>基于vue的DEMO-todolist</h5></span><a href="https://chenbeile.github.io/todolist/ToDoList.html">预览地址</a> - <a href="https://github.com/chenbeile/todolist/tree/master">源码展示</a>
-                    <span class="project-tagline"><br>
-                        <strong>功能介绍</strong>：代办事项文本框支持输入内容以及空文本的过滤，任务添加、删除功能<br>
-                        <strong>技术细节</strong>：父子组件间的数据传递，双向数据绑定<br>
-                        <strong>使用技术</strong>：vue<br>
-                    </span>
-                </div> -->
-            </section><!--//section-->
+            </section>
             
             <section class="section experiences-section">
                 <h2 class="section-title"><span class="icon-holder"><i class="fas fa-briefcase"></i></span>work experience & Projects.工作经历与项目经验</h2>
+                <div class="item">
+                    <div class="meta">
+                        <div class="upper-row">
+                            <h3 class="job-title">前端工程师</h3>
+                            <div class="time">2022 - 2024</div>
+                        </div><!--//upper-row-->
+                        <div class="company">宁波中茂有限公司</div>
+                    </div><!--//meta-->
+                    <span class="project-tagline"><br>
+                        <strong>1.广告组社媒营销项目</strong><br>
+                        <strong>功能介绍</strong>：是一个外贸管理系统，支持用户查看各个流行平台的点赞回复转发数据，绑定主流平台，支持回复平台邮件、消息内容<br>
+                        <strong>主要工作</strong>
+                        <ul>
+                            <li>项目里的平台的消息、邮件查看及回复功能</li>
+                            <li>平台效果预览功能</li>
+                            <li>使用echarts图表展示日周月各平台数据，统一处理所有图表缺省页面处理</li>
+                            <li>快捷回复快捷用语懒加载处理</li>
+                        </ul>
+                        <strong>使用技术</strong>：vue@2.7 +webpack + scss + vuex + echarts
+                    </span><br>
+                </div><!--//item-->
                 <div class="item">
                         <div class="meta">
                             <div class="upper-row">
@@ -138,7 +134,7 @@
                         </div><!--//meta-->
                         <div class="details">
                             <span class="project-tagline"><br>
-                                <strong>1.DMAX设计时大屏可视化编辑页面</strong><br>
+                                <strong>1.DMAX设计时大屏可视化拖拽编辑页面</strong><br>
                                 <strong>功能介绍</strong>：可以拖拽echarts图表构建个性化页面进行展示<br>
                                 <strong>主要工作</strong>
                                 <ul>
@@ -146,11 +142,12 @@
                                     <li>webpack相关配置处理和优化</li>
                                     <li>制定前端代码规范，基于git，参与多人提交，审核相关代码</li>
                                     <li>完成可视化编辑页面的静态展示</li>
-                                    <li>基于html拖拽事件，实现了echarts组件列表的展示、拖拽功能</li>
+                                    <li>输入框搜索功能防抖优化</li>
+                                    <li>基于html拖拽事件，实现了echarts组件列表的transition动画展示、拖拽功能</li>
                                     <li>封装页面操作后相关提示（成功、失败）的弹框组件</li>
                                     <li>基于vue-router，初始化页面时，根据用户信息，进行权限判断，无权限进入无权限页面，有权限进入相关编辑页面</li>
                                 </ul>
-                                <strong>使用技术</strong>：vue@2.4 + vue-router（多页面间路由）+less
+                                <strong>使用技术</strong>：vue@2.4 +webpack + vue-router+less + vuex
                             </span><br>
                             <span class="project-tagline"><br>
                                 <strong>2.DMAX echarts组件库</strong><br>
@@ -182,22 +179,37 @@
                         <div class="company">深圳必维华法有限公司</div>
                     </div><!--//meta-->
                     <div class="details">
-                        <p>前期用英文书写、审核检测报告,导入TPD系统；后期与IT部门沟通, <strong>协助TPD系统bug的解决方案, 修改系统页面布局输入输出Protocol数据改良系统</strong>，与沃尔玛（WMRT）、劳氏（LOWE'S）等客户进行沟通，提供技术支持和咨询；协助其他高级工程师完成相关设计</p>  
+                        <span><a href="https://chenbeile.github.io/travel/dist/#/">预览地址</a></span>
+                        <span>-</span>
+                        <span><a href="https://github.com/chenbeile/travel">源码展示</a></span>
                     </div><!--//details-->
+                    <span class="project-tagline"><br>
+                        <strong>学习项目：移动端旅游项目</strong><br>
+                        <strong>功能介绍</strong>：首页城市与城市选择页面数据共享，多区域列表的循环展示，多区域轮播功能，城市搜索功能及城市右侧字母与左侧区块动画联动的效果，景点详情页面有公共画廊组件<br>
+                        <strong>主要工作</strong>
+                        <ul>
+                            <li>用英文书写、审核检测报告,导入TPD系统；后期与IT部门沟通</li>
+                            <li>协助TPD系统bug的解决方案, 修改系统页面布局输入输出Protocol数据改良系统</li>
+                            <li>与沃尔玛（WMRT）、劳氏（LOWE'S）等客户进行沟通，提供技术支持和咨询；协助其他高级工程师完成相关设计</li>
+                            <li>使用webpack配置简化代码</li>
+                            <li>使用stylus预处理css</li>
+                        </ul>
+                        <strong>使用技术</strong>：vue@2.4 +webpack + vue-router + stylus + iconfont + vuex
+                    </span><br>
                 </div><!--//item-->
                 
-                <div class="item">
+                <!-- <div class="item">
                     <div class="meta">
                         <div class="upper-row">
                             <h3 class="job-title">中控数据管理</h3>
                             <div class="time">2016 - 2017</div>
-                        </div><!--//upper-row-->
+                        </div>
                         <div class="company">江西理文化工有限公司</div>
-                    </div><!--//meta-->
+                    </div>
                     <div class="details">
                         <p>负责车间数据收集和整理，调用电脑数据监控，记录8h工作运行车间设备数据，发现数据的异常并及时反馈设置系统曲线阈值，通过系统收集异常数据分析，制作图表，使用photoshop软件切图，整理有关数据</p>                        
-                    </div><!--//details-->
-                </div><!--//item-->                            
+                    </div>
+                </div>                           -->
             </section><!--//section-->
             
         </div><!--//main-body-->
